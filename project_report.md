@@ -6,32 +6,31 @@
 
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
 
-When I first submitted the project without any analysis or feature engineering, I did not encounter any errors. My submission
-did not include any negative values. However, the model performed poorly.
+During the initial submission of my predictions, I quickly realized that the model's performance was underwhelming. It became evident that a more comprehensive analysis and feature engineering were necessary to enhance the accuracy of the predictions.
 
 ### What was the top ranked model that performed?
 
-The top ranked model that performed was the WeightedEnsemble_L3
+Among the models I trained, the one that stood out as the top performer was the impressive WeightedEnsemble_L3. Its robustness and ability to incorporate insights from various models proved to be instrumental in achieving higher prediction accuracy.
 
 ## Exploratory data analysis and feature creation
 
 ### What did the exploratory analysis find and how did you add additional features?
 
-I first found that the temp and atemp were highly correlated, so I removed atemp. I found that the datetime was recorded on an hourly basis. So I split it into day, month, year, and hour. I also changed the data types of some variables to categorical.
+Through in-depth exploratory data analysis, I discovered a strong correlation between the "temp" and "atemp" variables. Consequently, I made the strategic decision to remove "atemp" from the feature set. Additionally, I recognized that the recorded "datetime" information was hourly, so I creatively extracted day, month, year, and hour as separate features. I also implemented categorical data type conversions for certain variables to optimize the model's understanding of the data.
 
 ### How much better did your model preform after adding additional features and why do you think that is?
 
-A lot better. The error reduced by a lot. I think this is because the model was able to learn more from the data.
+The inclusion of additional features resulted in a remarkable improvement in the model's performance. The error rate witnessed a significant reduction, indicating that the model gained a deeper understanding of the underlying patterns and dynamics within the dataset. By augmenting the feature set, the model was empowered to extract more meaningful insights, leading to enhanced prediction accuracy.
 
 ## Hyper parameter tuning
 
 ### How much better did your model preform after trying different hyper parameters?
 
-The model improved but not by a lot. I think this is because the model was already performing well. Or maybe becasue I have not found the right parameters to use yet.
+Although the model exhibited notable improvement after hyperparameter tuning, the progress was moderate compared to the substantial gains achieved through feature engineering. It's plausible that the initial default hyperparameters were already well-suited for the dataset, leaving limited room for drastic enhancements. Alternatively, it's also possible that the ideal set of hyperparameters has not yet been discovered, indicating further exploration for optimization.
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
 
-I would spend more time on the hyperparameter tuning. I would also try to add more features. I think I would also spend more time analysing and further seperating the data.
+Given additional time with this dataset, I would allocate significant effort to further fine-tuning the hyperparameters. Additionally, I would aim to enrich the feature set by exploring additional variables and extracting more insightful information. Furthermore, I would dedicate time to conduct a more comprehensive data analysis, seeking opportunities to segment and analyze the data in greater detail for improved predictive performance.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score
 

@@ -46,7 +46,7 @@ Given additional time with this dataset, I would allocate significant effort to 
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project
 
-![model_test_score.png](img/output.png)
+![model_test_score.png](img/kaggle_score.png)
 
 ## Summary
 
